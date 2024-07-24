@@ -6,5 +6,5 @@ GenUI, a new paradigm of user interface enabled by generative AI
 
 ## このパラダイムによって今後可能になること
 
-同じ主張をしているwebサイト
+同じ考え方についてわかりやすくまとめているwebサイト
 https://www.nngroup.com/articles/generative-ui/
