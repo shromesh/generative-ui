@@ -1,5 +1,5 @@
 # generative-ui
-GenUI, a new paradigm of user interface enabled by generative AI
+GenUI, a new paradigm of UI enabled by generative AI
 生成AIによって可能になる、新しいUIパラダイム
 
 ## 実装したこと
