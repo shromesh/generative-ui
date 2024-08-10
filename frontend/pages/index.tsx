@@ -1,13 +1,27 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
+import { useRouter } from 'next/router';
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-  </Layout>
-);
+export default function Home() {
+  const router = useRouter();
 
-export default IndexPage;
+  const navigateToBookSearch = () => {
+    router.push('/book');
+  };
+
+  return (
+    <div className="container">
+      <h1>Welcome to GenUI</h1>
+      <button
+        onClick={navigateToBookSearch}
+        style={{
+          padding: '10px 20px',
+          fontSize: '16px',
+          borderRadius: '5px',
+          border: '1px solid #000',
+          cursor: 'pointer',
+          backgroundColor: '#f0f0f0'
+        }}>
+        Demonstration: Book Search API
+      </button>
+    </div>
+  );
+}

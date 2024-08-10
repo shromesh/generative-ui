@@ -9,15 +9,18 @@ GenUI, a new paradigm of UI enabled by generative AI
 同じ考え方についてわかりやすくまとめているwebサイト
 https://www.nngroup.com/articles/generative-ui/
 
-## commands
+## demonstration
 
-- yarn create next-app --example with-typescript frontend
+1. boot the sample api
+```
+cd /sample_api 
+fastapi dev
+```
 
-- yarn dev
-    - Starts the development server.
+2. boot the backend
+coming soon...
 
-- yarn build
-    - Builds the app for production.
-
-- yarn start
-    - Runs the built app in production mode.
+3. start frontend server
+```
+yarn dev
+```
